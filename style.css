@@ -68,8 +68,27 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 5rem 0;
+}
+.tea-wrapper {
+  width: 1000px;
 }
 
+.square-wrapper {
+  display: flex;
+  padding: 1rem 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.square img {
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+}
+.square.right {
+  padding-right: 10px;
+}
 
 
 
