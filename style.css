@@ -17,6 +17,7 @@ nav {
     align-items: center;
     top: 0;
     position: sticky;
+    background-color: black;
 }
 .logo img {
   height: 50px;
@@ -44,7 +45,7 @@ header {
  display: flex;
  justify-content: center;
 }
-header .background {
+.container {
   background-image: url("img-mission-background.jpg");
   height: 700px;
   width: 1200px;
@@ -53,8 +54,22 @@ header .background {
   justify-content: center; 
   align-items: center;  
 }
-header .background .header-title {
+.title {
   background-color: black;
   text-align: center;
   width: 100%;
+  padding: 5px 0;
 }
+h2, h4 {
+  padding: 10px 0;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
