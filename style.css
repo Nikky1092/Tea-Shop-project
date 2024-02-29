@@ -69,17 +69,22 @@ main {
   justify-content: center;
   align-items: center;
   padding: 5rem 0;
+  flex-wrap: wrap;
 }
-.tea-wrapper {
+.tea {
   width: 1000px;
 }
 
-.square-wrapper {
+.tea-wrapper {
   display: flex;
   padding: 1rem 0;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+.square {
+  padding: 10px;
+  text-align: center;
 }
 .square img {
   height: 200px;
@@ -87,8 +92,22 @@ main {
   object-fit: contain;
 }
 .square.right {
-  padding-right: 10px;
+  padding: 10px 10px 10px 0;
 }
-
+.square.left {
+  padding: 10px 0 10px 10px;
+}
+.locations {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+.locations img {
+  object-fit: cover;
+  height: 500px;
+  width: 1200px;
+}
 
 
