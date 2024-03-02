@@ -39,6 +39,7 @@ justify-content: flex-end;
 li a {
   color: seashell;
   text-decoration: underline;
+  opacity: 0.9;
 }
 header {
  width: 100%;
@@ -62,19 +63,19 @@ header {
 }
 h2, h4 {
   padding: 10px 0;
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
 }
 main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
   padding: 5rem 0;
-  flex-wrap: wrap;
+  width: 1200px;
 }
-.tea {
-  width: 1000px;
+.title.center {
+  width:1000px;
+  margin: 0 auto;
 }
-
 .tea-wrapper {
   display: flex;
   padding: 1rem 0;
@@ -98,16 +99,46 @@ main {
   padding: 10px 0 10px 10px;
 }
 .locations {
+  margin: 0 auto;  
+  height: 500px;
   width: 1200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; 
-  flex-wrap: wrap;
+  padding: 2rem 0;
 }
 .locations img {
   object-fit: cover;
-  height: 500px;
-  width: 1200px;
+  height: 100%;
+  width: 100%;
 }
-
-
+.h2 h2 {
+  padding: 0;
+  font-family: Helvetica;
+}
+.location-wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  position: relative;
+  bottom: 30rem;
+}
+.box-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.box {
+  width: 300px;
+  text-align: center;
+  background-color: black;
+  margin: 0 20px;
+  padding: 10px 0;
+}
+.h2 {
+  margin-bottom: 15px;
+}
+.box h3,
+.box h4 {
+  opacity: 0.9;
+  margin-bottom: 5px;
+  font-family: Helvetica;
+}
