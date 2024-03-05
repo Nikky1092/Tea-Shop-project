@@ -143,3 +143,8 @@ main {
   margin-bottom: 5px;
   font-family: Helvetica;
 }
+.contact-info {
+  height: 200px;
+  text-align: center;
+}
+.contact-info h5 {}
