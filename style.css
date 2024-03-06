@@ -70,7 +70,7 @@ h2, h4 {
 }
 main {
   margin: 0 auto;
-  padding: 5rem 0;
+  padding: 5rem 0 2rem 0;
   width: 1200px;
 }
 .title.center {
@@ -103,7 +103,7 @@ main {
   margin: 0 auto;  
   height: 500px;
   width: 1200px;
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
 }
 .locations img {
   object-fit: cover;
@@ -113,6 +113,7 @@ main {
 .h2 h2 {
   padding: 0;
   font-family: Helvetica;
+  opacity: 0.9;
 }
 .location-wrapper {
   margin: 0 auto;
@@ -147,4 +148,12 @@ main {
   height: 200px;
   text-align: center;
 }
-.contact-info h5 {}
+.contact-info h5 {
+  padding: 1rem;
+  margin-top: 1rem;
+  opacity: 0.9;
+}
+footer {
+  margin: 5px 20px 0;
+  padding: 0 0 2rem 0;
+}
